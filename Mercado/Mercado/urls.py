@@ -19,6 +19,7 @@ from django.urls import path
 
 
 urlpatterns = [
+    path('',include('kiosco.urls')),
     url(r'^jet/', include('jet.urls', 'jet')),
     url(r'^admin/', admin.site.urls),
 ]

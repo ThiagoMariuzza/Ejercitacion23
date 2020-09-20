@@ -5,3 +5,4 @@ from kiosco.models import *
 
 
 admin.site.register(Gaseosa)
+admin.site.register(Cliente)
